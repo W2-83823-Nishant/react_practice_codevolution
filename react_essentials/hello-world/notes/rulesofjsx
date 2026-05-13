@@ -1,0 +1,6 @@
+Rules of JSX 
+
+JSX isn't real HTMl
+It's a Javascript in disguise 
+Every component must return a single root element 
+They need to be wrapped in a parent container 
