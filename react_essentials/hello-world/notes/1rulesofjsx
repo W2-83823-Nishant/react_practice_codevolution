@@ -1,0 +1,32 @@
+Rules of JSX 
+
+JSX isn't real HTMl
+It's a Javascript in disguise 
+Every component must return a single root element 
+They need to be wrapped in a parent container 
+
+
+Returning from functions 
+
+1.You can't return two or more objects from a function without wrapping into an array .
+2.You can't retunr two or more JSX elements without wrapping them into a parent element .
+
+3.Every component must return a single root element 
+
+
+Rule #3
+
+- Attribute name must be written in camelCase
+- Jsx is extension of javascript , html attributes that conflic with javascript keywords need different names 
+- since attributes written in JSX become keys of javascript objects they need to be valid javascript variabe names 
+
+Rule #4
+You can embed Javascript expression directly in your markup using curly braces 
+
+Rulle #5 
+
+JSX rules exist because JSX is Javasript , not HTML 
+- single root element ? That's how Javascript returns work 
+- self closing tags ? that's xml syntax 
+- camelCase attributes ? thats avoiding Javascript reserved words 
+- curly braces ? thats your gateway to all Javascript's power 
